@@ -33,6 +33,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-family: var(--default-font-family);
   font-size: 16px;
@@ -68,6 +72,52 @@ nav li a {
   color: #272142;
   opacity: 0.7;
   transition: all 100ms ease-in-out;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .contact-box a {
+  margin: 15px auto;
+  padding: 15px 30px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 13px;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 .logo {
@@ -200,6 +250,18 @@ nav li a {
 
   nav a {
     font-size: 14px;
+  }
+
+  footer .contact-box {
+    padding: 20px 50px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  footer .contact-box a {
+    font-size: 16px;
   }
 }
 
