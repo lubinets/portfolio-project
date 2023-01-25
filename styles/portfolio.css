@@ -33,7 +33,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -94,11 +94,13 @@ footer .contact-box a {
 }
 
 footer .email-link {
+  font-family: var(--default-font-family);
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 300;
   text-align: center;
+  margin: 0 auto 40px;
 }
 
 footer .email-link:hover {
@@ -140,7 +142,7 @@ footer .social-links a:hover {
 .intro {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 240px 0;
+  padding: 140px 0;
 }
 
 .btn-branding {
@@ -185,8 +187,8 @@ footer .social-links a:hover {
   margin: 0px;
 }
 
-.content {
-  padding: 180px 50px;
+.content-container {
+  padding: 60px 50px;
 }
 
 .works-section img {
@@ -223,7 +225,7 @@ footer .social-links a:hover {
   }
 
   .intro {
-    padding: 160px 0;
+    padding: 120px 0;
   }
 
   .content h1 {
@@ -256,7 +258,7 @@ footer .social-links a:hover {
     padding: 20px 50px;
   }
 
-  h4 {
+  h3 {
     font-size: 30px;
   }
 
