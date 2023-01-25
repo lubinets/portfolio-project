@@ -126,10 +126,6 @@ footer .social-links a:hover {
   max-height: 40px;
 }
 
-.featured {
-  font-weight: 700;
-}
-
 .intro p {
   font-family: var(--default-font-family);
   font-weight: bold;
@@ -140,9 +136,16 @@ footer .social-links a:hover {
 }
 
 .intro {
-  background-color: var(--secondary-color);
+  background: linear-gradient(
+    rgba(255, 255, 255, 1) 0%,
+    rgba(249, 247, 254, 1) 100%
+  );
   text-align: center;
   padding: 140px 0;
+}
+
+.intro h2 {
+  font-size: 20px;
 }
 
 .btn-branding {
@@ -159,6 +162,21 @@ footer .social-links a:hover {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
   font-size: 18px;
+}
+
+.featured p {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0 50px;
+  background-color: var(--secondary-color);
+}
+
+.homepage {
+  background: linear-gradient(
+    rgba(249, 247, 254, 1) 0%,
+    rgba(255, 255, 255, 1) 70%
+  );
 }
 
 .project-description {
@@ -184,7 +202,15 @@ footer .social-links a:hover {
   max-width: 100%;
   height: auto;
   padding: 0;
-  margin: 0px;
+  margin: 0;
+}
+
+.about-section {
+  padding: 0 50px;
+}
+
+.about-content {
+  padding: 80px 0;
 }
 
 .content-container {
@@ -197,6 +223,10 @@ footer .social-links a:hover {
 
 @media (max-width: 575.98px) {
   .content-container {
+    text-align: center;
+  }
+
+  .about-content {
     text-align: center;
   }
 }
@@ -246,6 +276,10 @@ footer .social-links a:hover {
     margin: 0;
   }
 
+  .about-section {
+    padding: 0 20px;
+  }
+
   .content .btn-branding {
     font-size: 14px;
   }
@@ -281,7 +315,11 @@ footer .social-links a:hover {
     font-size: 42px;
   }
   .content {
-    padding: 80px 30px;
+    padding: 60px 20px;
+  }
+
+  .about-img {
+    padding: 30px 0;
   }
 }
 
@@ -290,8 +328,8 @@ footer .social-links a:hover {
     font-size: 52px;
   }
 
-  .content {
-    padding: 130px 50px;
+  .about-content {
+    padding: 60px 0;
   }
 }
 
